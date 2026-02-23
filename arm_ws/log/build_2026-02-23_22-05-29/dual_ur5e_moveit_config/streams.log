@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/dual_ur5e_moveit_config -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/dual_ur5e_moveit_config
+[0.022s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.022s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.022s]   contain a literal, direct call to the project() command.  Add a line of
+[0.022s]   code such as
+[0.023s] 
+[0.023s]     project(ProjectName)
+[0.023s] 
+[0.023s]   near the top of the file, but after cmake_minimum_required().
+[0.023s] 
+[0.023s]   CMake is pretending there is a "project(Project)" command on the first
+[0.023s]   line.
+[0.023s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.023s] [0m
+[0.023s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.023s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.023s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.023s]   both commands.
+[0.023s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.023s] [0m
+[0.070s] -- The C compiler identification is GNU 13.3.0
+[0.131s] -- The CXX compiler identification is GNU 13.3.0
+[0.147s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.400s] -- Detecting CXX compile features
+[0.400s] -- Detecting CXX compile features - done
+[0.402s] -- Configuring done (0.4s)
+[0.403s] -- Generating done (0.0s)
+[0.403s] [33mCMake Warning:
+[0.403s]   Manually-specified variables were not used by the project:
+[0.403s] 
+[0.404s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.404s] 
+[0.404s] [0m
+[0.404s] -- Build files have been written to: /home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config
+[0.408s] Invoked command in '/home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/dual_ur5e_moveit_config -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/dual_ur5e_moveit_config
+[0.410s] Invoking command in '/home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config -- -j8 -l8
+[0.454s] Invoked command in '/home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config -- -j8 -l8

@@ -1,0 +1,55 @@
+[0.022s] Invoking command in '/home/lifeofsankar/arm_ws/build/my_mtc_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/my_mtc_task -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/my_mtc_task
+[0.094s] -- The C compiler identification is GNU 13.3.0
+[0.158s] -- The CXX compiler identification is GNU 13.3.0
+[0.175s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.297s] -- Detecting CXX compiler ABI info
+[0.404s] -- Detecting CXX compiler ABI info - done
+[0.416s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.418s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.611s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.764s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.821s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.840s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.888s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.983s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.989s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.083s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.109s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.140s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.252s] -- Found moveit_task_constructor_core: 0.1.4 (/opt/ros/jazzy/share/moveit_task_constructor_core/cmake)
+[1.448s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.552s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.572s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.625s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.810s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.811s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.532s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.626s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.656s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.708s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[3.001s] -- Configuring done (3.0s)
+[3.079s] -- Generating done (0.1s)
+[3.099s] -- Build files have been written to: /home/lifeofsankar/arm_ws/build/my_mtc_task
+[3.113s] Invoked command in '/home/lifeofsankar/arm_ws/build/my_mtc_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/my_mtc_task -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/my_mtc_task
+[3.114s] Invoking command in '/home/lifeofsankar/arm_ws/build/my_mtc_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/my_mtc_task -- -j8 -l8
+[3.168s] [ 12%] [32mBuilding CXX object CMakeFiles/hard_code.dir/src/hard_code.cpp.o[0m
+[3.171s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_painter.dir/src/auto_painter.cpp.o[0m
+[3.171s] [ 37%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[3.175s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_mtc.dir/src/simple_mtc.cpp.o[0m
+[17.660s] gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:76: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o] Interrupt
+[17.670s] gmake[2]: *** [CMakeFiles/simple_mtc.dir/build.make:76: CMakeFiles/simple_mtc.dir/src/simple_mtc.cpp.o] Interrupt
+[17.670s] gmake[2]: *** [CMakeFiles/auto_painter.dir/build.make:76: CMakeFiles/auto_painter.dir/src/auto_painter.cpp.o] Interrupt
+[17.671s] gmake[2]: *** [CMakeFiles/hard_code.dir/build.make:76: CMakeFiles/hard_code.dir/src/hard_code.cpp.o] Interrupt
+[17.671s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/pick_and_place.dir/all] Interrupt
+[17.671s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/hard_code.dir/all] Interrupt
+[17.672s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/auto_painter.dir/all] Interrupt
+[17.672s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/simple_mtc.dir/all] Interrupt
+[17.672s] gmake: *** [Makefile:146: all] Interrupt
+[17.723s] Invoked command in '/home/lifeofsankar/arm_ws/build/my_mtc_task' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/my_mtc_task -- -j8 -l8

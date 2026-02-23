@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-785f9d330ec6a605efe1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_mtc_task",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_painter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_painter-8fcd5121a14ee925d3f9.json",
+					"name" : "auto_painter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hard_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hard_code-09f88627ac0bec800014.json",
+					"name" : "hard_code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_mtc_task_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_mtc_task_uninstall-6e9f5387500d5f08289f.json",
+					"name" : "my_mtc_task_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_and_place::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_and_place-036d34d201dbc9634499.json",
+					"name" : "pick_and_place",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_mtc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_mtc-aadde066d5e4f6d5250f.json",
+					"name" : "simple_mtc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6e21165d4beb81b0b9c9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lifeofsankar/arm_ws/build/my_mtc_task",
+		"source" : "/home/lifeofsankar/arm_ws/src/my_mtc_task"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

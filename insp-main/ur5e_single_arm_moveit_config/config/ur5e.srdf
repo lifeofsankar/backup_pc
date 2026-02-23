@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot name="ur5e_dual_arm">
+
+  <!-- PLANNING GROUP -->
+  <group name="arm">
+    <chain base_link="base_link" tip_link="tool0"/>
+  </group>
+
+
+  <!-- END EFFECTOR -->
+  <end_effector name="tool" parent_link="tool0" group="arm"/>
+
+
+  <!-- NAMED POSE : HOME (UR default folded pose) -->
+  <group_state name="home" group="arm">
+    <joint name="shoulder_pan_joint" value="0"/>
+    <joint name="shoulder_lift_joint" value="-1.57"/>
+    <joint name="elbow_joint" value="1.57"/>
+    <joint name="wrist_1_joint" value="-1.57"/>
+    <joint name="wrist_2_joint" value="-1.57"/>
+    <joint name="wrist_3_joint" value="0"/>
+  </group_state>
+
+
+  <!-- Ready pose (good for planning tests) -->
+  <group_state name="ready" group="arm">
+    <joint name="shoulder_pan_joint" value="-1.2"/>
+    <joint name="shoulder_lift_joint" value="-1.8"/>
+    <joint name="elbow_joint" value="2.0"/>
+    <joint name="wrist_1_joint" value="-1.7"/>
+    <joint name="wrist_2_joint" value="-1.57"/>
+    <joint name="wrist_3_joint" value="0"/>
+  </group_state>
+
+
+  <!-- SELF COLLISION DISABLE (ONLY ADJACENT LINKS) -->
+
+  <disable_collisions link1="base_link" link2="shoulder_link" reason="Adjacent"/>
+  <disable_collisions link1="shoulder_link" link2="upper_arm_link" reason="Adjacent"/>
+  <disable_collisions link1="upper_arm_link" link2="forearm_link" reason="Adjacent"/>
+  <disable_collisions link1="forearm_link" link2="wrist_1_link" reason="Adjacent"/>
+  <disable_collisions link1="wrist_1_link" link2="wrist_2_link" reason="Adjacent"/>
+  <disable_collisions link1="wrist_2_link" link2="wrist_3_link" reason="Adjacent"/>
+
+</robot>

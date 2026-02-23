@@ -1,0 +1,83 @@
+[0.031s] Invoking command in '/home/lifeofsankar/arm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/arm_description -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/arm_description
+[0.109s] -- The C compiler identification is GNU 13.3.0
+[0.174s] -- The CXX compiler identification is GNU 13.3.0
+[0.192s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.419s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.437s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.643s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.789s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.844s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.866s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.028s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.032s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.136s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.162s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.187s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.541s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[1.641s] -- Configuring done (1.6s)
+[1.646s] -- Generating done (0.0s)
+[1.648s] -- Build files have been written to: /home/lifeofsankar/arm_ws/build/arm_description
+[1.660s] Invoked command in '/home/lifeofsankar/arm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/arm_description -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/arm_description
+[1.661s] Invoking command in '/home/lifeofsankar/arm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/arm_description -- -j8 -l8
+[1.710s] Invoked command in '/home/lifeofsankar/arm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/arm_description -- -j8 -l8
+[1.720s] Invoking command in '/home/lifeofsankar/arm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/arm_ws/build/arm_description
+[1.729s] -- Install configuration: ""
+[1.729s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/config
+[1.729s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/config/controller.yaml
+[1.729s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/config/gz_bridge.yaml
+[1.729s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/launch
+[1.729s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/launch/arm.launch.py
+[1.730s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/rviz
+[1.730s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/rviz/rviz2.rviz
+[1.730s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/urdf
+[1.730s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/urdf/panda.urdf.xacro
+[1.730s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes
+[1.730s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision
+[1.730s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/d435.stl
+[1.737s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link6.stl
+[1.737s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/hand.stl
+[1.738s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link4.stl
+[1.738s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link2.stl
+[1.738s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link5.stl
+[1.738s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link7.stl
+[1.738s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/finger.stl
+[1.738s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link3.stl
+[1.738s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link1.stl
+[1.739s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/collision/link0.stl
+[1.739s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual
+[1.739s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link2.dae
+[1.739s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/finger.dae
+[1.740s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link3.dae
+[1.740s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link1.dae
+[1.741s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/hand.dae
+[1.742s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link6.dae
+[1.743s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link4.dae
+[1.744s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link5.dae
+[1.746s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link7.dae
+[1.747s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/meshes/visual/link0.dae
+[1.747s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[1.747s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[1.747s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[1.747s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[1.747s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/environment/path.sh
+[1.748s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/environment/path.dsv
+[1.748s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/local_setup.bash
+[1.748s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/local_setup.sh
+[1.748s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/local_setup.zsh
+[1.748s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/local_setup.dsv
+[1.748s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/package.dsv
+[1.748s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[1.749s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[1.749s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[1.749s] -- Installing: /home/lifeofsankar/arm_ws/install/arm_description/share/arm_description/package.xml
+[1.751s] Invoked command in '/home/lifeofsankar/arm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/arm_ws/build/arm_description

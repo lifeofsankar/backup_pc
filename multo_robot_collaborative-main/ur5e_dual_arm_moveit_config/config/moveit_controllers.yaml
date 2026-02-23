@@ -1,0 +1,77 @@
+# ==========================================
+# MOVEIT CONTROLLERS
+#
+# Bridge between MoveIt and ros2_control
+# 
+# Flow:
+# MoveIt plans → trajectory
+# MoveIt execution → sends to controller
+# Controller → moves robot
+#
+# Must match controller names in ros2_controllers.yaml!
+# ==========================================
+
+# Trajectory execution manager settings
+trajectory_execution:
+  allowed_execution_duration_scaling: 1.2    # allow 20% longer than planned
+  allowed_goal_duration_margin: 0.5          # 0.5s tolerance at goal
+  allowed_start_tolerance: 0.01              # must start within 0.01 rad
+
+# Controller manager namespace
+controller_manager_ns: /controller_manager
+
+# ==========================================
+# CONTROLLER LIST
+# Define which controllers MoveIt can use
+# ==========================================
+
+controller_names:
+  - left_arm_controller
+  - right_arm_controller
+
+# ==========================================
+# LEFT ARM CONTROLLER
+# ==========================================
+left_arm_controller:
+  # Action namespace - where to send goals
+  action_ns: follow_joint_trajectory
+  
+  # Type - must match controller type in ros2_controllers.yaml
+  type: FollowJointTrajectory
+  
+  # Joints this controller owns
+  joints:
+    - left_shoulder_pan_joint
+    - left_shoulder_lift_joint
+    - left_elbow_joint
+    - left_wrist_1_joint
+    - left_wrist_2_joint
+    - left_wrist_3_joint
+
+# ==========================================
+# RIGHT ARM CONTROLLER
+# ==========================================
+right_arm_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  joints:
+    - right_shoulder_pan_joint
+    - right_shoulder_lift_joint
+    - right_elbow_joint
+    - right_wrist_1_joint
+    - right_wrist_2_joint
+    - right_wrist_3_joint
+```
+
+# **Key concept:**
+# ```
+# MoveIt doesn't move robot directly!
+
+# MoveIt → plans trajectory
+#       ↓
+# moveit_controllers.yaml says which controller to use
+#       ↓
+# Controller executes on hardware
+
+# This separation = you can swap controllers
+# without changing MoveIt code!

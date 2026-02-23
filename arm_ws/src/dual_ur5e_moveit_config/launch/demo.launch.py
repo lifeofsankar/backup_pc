@@ -1,0 +1,24 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+import os
+
+def generate_launch_description():
+
+    urdf_path = os.path.join(
+        os.getenv("HOME"),
+        "arm_ws/src/dual_arm_description/urdf/ur5e.xacro"
+    )
+
+    return LaunchDescription([
+        Node(
+            package="robot_state_publisher",
+            executable="robot_state_publisher",
+            parameters=[{"robot_description": open(urdf_path).read()}],
+            output="screen",
+        ),
+        Node(
+            package="rviz2",
+            executable="rviz2",
+            output="screen"
+        )
+    ])

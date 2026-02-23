@@ -1,0 +1,9 @@
+gmake[2]: *** [CMakeFiles/pick_and_place.dir/build.make:76: CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/simple_mtc.dir/build.make:76: CMakeFiles/simple_mtc.dir/src/simple_mtc.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/auto_painter.dir/build.make:76: CMakeFiles/auto_painter.dir/src/auto_painter.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/hard_code.dir/build.make:76: CMakeFiles/hard_code.dir/src/hard_code.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/pick_and_place.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/hard_code.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/auto_painter.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/simple_mtc.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

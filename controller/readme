@@ -1,0 +1,143 @@
+Markdown
+
+# Dual UR5e Cooperative Admittance Controller
+
+## Overview
+This repository contains a custom ROS 2 Jazzy and Gazebo Harmonic implementation for controlling two UR5e robotic arms collaboratively. 
+
+To meet strict dynamic motion and coordination constraints, this project **does not use off-the-shelf trajectory controllers**. Instead, it features a custom C++ `ros2_control` plugin that calculates a Minimum Jerk trajectory for a virtual shared object and applies Admittance Control ($M\ddot{x} + D\dot{x} + Kx = F_{ext}$) to maintain physical compliance and minimize internal tension forces between the arms.
+
+**Author:** Jai Sankar J.
+
+---
+
+## 🛠 Prerequisites
+* **OS:** Ubuntu 24.04
+* **ROS 2:** Jazzy Jalisco
+* **Simulation:** Gazebo Harmonic
+* **Dependencies:** `ros2_control`, `MoveIt 2`, `Eigen3`, `PlotJuggler`
+
+---
+
+## 🚀 Phase 1: Workspace Setup & URDF Compilation
+
+Due to custom offsets and dual-arm parameters, the `.xacro` file must be compiled into a raw `.urdf` to ensure stable loading in Gazebo and MoveIt.
+
+1. **Source the workspace:**
+   ```bash
+   cd ~/ros2_ws
+   source /opt/ros/jazzy/setup.bash
+
+    Compile the dual-arm Xacro to raw URDF:
+    Bash
+
+    xacro src/ur_description/urdf/dual_arm_gazebo.urdf.xacro name:=dual_ur ur_type:=ur5e > src/ur_description/urdf/compiled_dual_arm.urdf
+
+    (Optional) MoveIt Setup Assistant (with Wayland/X11 Fix):
+    If regenerating the MoveIt configuration package, bypass the Ubuntu 24.04 Qt5 segmentation faults by forcing the X11 backend:
+    Bash
+
+    export QT_QPA_PLATFORM=xcb
+    ros2 launch moveit_setup_assistant setup_assistant.launch.py urdf:=/home/lifeofsankar/ros2_ws/src/ur_description/urdf/compiled_dual_arm.urdf
+
+🧠 Phase 2: Custom C++ Controller (dual_arm_controllers)
+
+The core of this architecture is the custom real-time control loop running at 500Hz. You must build this package manually.
+1. Create the Package
+Bash
+
+cd ~/ros2_ws/src
+ros2 pkg create --build-type ament_cmake dual_arm_controllers --dependencies rclcpp controller_interface hardware_interface pluginlib geometry_msgs sensor_msgs realtime_tools Eigen3
+
+2. File Structure & Placement
+
+Once generated, you must create and place your C++ files in this exact structure inside src/dual_arm_controllers/:
+Plaintext
+
+dual_arm_controllers/
+├── CMakeLists.txt                 # Must link Eigen3 and export the plugin
+├── package.xml                    # Must export the controller_interface XML
+├── dual_arm_controllers.xml       # Plugin declaration for controller_manager
+├── include/
+│   └── dual_arm_controllers/
+│       └── admittance_controller.hpp  # Class definitions and ROS 2 interfaces
+└── src/
+    └── admittance_controller.cpp      # THE CORE MATH LOGIC (Put your code here)
+
+3. How to Use admittance_controller.cpp
+
+The src/admittance_controller.cpp file is the brain of the robot.
+
+    Trajectory Generation: The Minimum Jerk math (x(t)=...) is located inside the update() function.
+
+    Tuning Compliance: If the arms vibrate or fight each other in simulation, open this .cpp file and modify these matrices in the on_init() function:
+
+        M_ (Virtual Mass): Increase to make the arms heavier/slower to react.
+
+        D_ (Damping): Increase to stop oscillatory vibrations (shaking).
+
+        K_ (Stiffness): Decrease to make the arms more compliant and gentle; increase to make them track the trajectory more rigidly.
+
+    Recompiling: Every time you change a value in the .cpp file, you must rebuild the package:
+    Bash
+
+    cd ~/ros2_ws
+    colcon build --packages-select dual_arm_controllers --symlink-install
+    source install/setup.bash
+
+⚙️ Phase 3: Gazebo & Controller Configuration
+
+Gazebo must be configured to load the custom C++ plugin.
+
+    Update the update_rate_config.yaml:
+    Ensure your custom controller and hardware joints are registered:
+    YAML
+
+    controller_manager:
+      ros__parameters:
+        update_rate: 500  
+        joint_state_broadcaster:
+          type: joint_state_broadcaster/JointStateBroadcaster
+        dual_arm_admittance_controller:
+          type: dual_arm_controllers/DualArmAdmittanceController
+
+    Verify URDF Hardware Interfaces:
+    Ensure the tcp_fts_sensor is properly exported in your <ros2_control> tags to provide Force/Torque data to the admittance loop.
+
+🏁 Phase 4: Execution & Data Analysis
+
+Launch the simulation and spawn the custom controllers to execute the cooperative motion.
+1. Launch Gazebo Simulation
+
+In Terminal 1:
+Bash
+
+ros2 launch ur_description gazebo.launch.py
+
+2. Spawn the Controllers
+
+Wait for Gazebo to fully load the arms, then in Terminal 2:
+Bash
+
+source ~/ros2_ws/install/setup.bash
+ros2 run controller_manager spawner joint_state_broadcaster
+ros2 run controller_manager spawner dual_arm_admittance_controller
+
+Note: The arms will instantly begin executing the Minimum Jerk trajectory upon controller activation.
+3. Record and Analyze System Compliance
+
+To prove the controller is preventing hardware fighting, monitor the internal tension forces:
+Bash
+
+# Record the data
+ros2 bag record /tcp_fts_sensor/force/y /tcp_fts_sensor/force/z
+
+# Visualize in PlotJuggler
+ros2 run plotjuggler plotjuggler
+
+
+***
+
+This formatting clearly separates *where* the file goes from *what* you actually do with it, which is exactly what a senior engineer reading this repo would look for. 
+
+Would you like me to write a short bash script (`run_test.sh`) that automates Phase 4 so you don't have to keep typing those spawner commands every time you test a new stiffness value?

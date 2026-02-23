@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Found controller_manager: 4.42.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros2_control: 4.42.2 (/opt/ros/jazzy/share/ros2_control/cmake)
+-- Found ros2_controllers: 4.36.0 (/opt/ros/jazzy/share/ros2_controllers/cmake)
+-- Found gripper_controllers: 4.36.0 (/opt/ros/jazzy/share/gripper_controllers/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lifeofsankar/arm_ws/build/dual_arm_gazebo
+-- Install configuration: ""
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/__pycache__
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/__pycache__/empty_world.launch.cpython-312.pyc
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/view_ur.launch.py
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/controller.launch.py
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/rsp.launch.py
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/empty_world.launch.py
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/dual_arm_gz.launch.py
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config/controller.yaml
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config/gz_bridge.yaml
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/empty.sdf
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/empty_world.sdf
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/package_run_dependencies/dual_arm_gazebo
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/parent_prefix_path/dual_arm_gazebo
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/path.sh
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/path.dsv
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.bash
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.sh
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.zsh
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.dsv
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/package.dsv
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/packages/dual_arm_gazebo
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/cmake/dual_arm_gazeboConfig.cmake
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/cmake/dual_arm_gazeboConfig-version.cmake
+-- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/package.xml

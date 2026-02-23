@@ -1,0 +1,4 @@
+Invoking command in '/home/lifeofsankar/ros2_ws/build/ur_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/ros2_ws/build/ur_gazebo -- -j8 -l8
+Invoked command in '/home/lifeofsankar/ros2_ws/build/ur_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/ros2_ws/build/ur_gazebo -- -j8 -l8
+Invoking command in '/home/lifeofsankar/ros2_ws/build/ur_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/ros2_ws/build/ur_gazebo
+Invoked command in '/home/lifeofsankar/ros2_ws/build/ur_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/ros2_ws/build/ur_gazebo

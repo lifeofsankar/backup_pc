@@ -1,0 +1,63 @@
+[0.025s] Invoking command in '/home/lifeofsankar/arm_ws/build/wall_painter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/wall_painter -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/wall_painter
+[0.108s] -- The C compiler identification is GNU 13.3.0
+[0.169s] -- The CXX compiler identification is GNU 13.3.0
+[0.188s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.433s] -- Detecting CXX compile features
+[0.434s] -- Detecting CXX compile features - done
+[0.439s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.774s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.779s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.919s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[0.995s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.013s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.448s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.549s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.619s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.626s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.759s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.775s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.839s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.989s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.060s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.192s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.192s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.536s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.628s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.683s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.870s] -- Configuring done (2.8s)
+[2.876s] -- Generating done (0.0s)
+[2.880s] -- Build files have been written to: /home/lifeofsankar/arm_ws/build/wall_painter
+[2.901s] Invoked command in '/home/lifeofsankar/arm_ws/build/wall_painter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/wall_painter -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/wall_painter
+[2.902s] Invoking command in '/home/lifeofsankar/arm_ws/build/wall_painter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/wall_painter -- -j8 -l8
+[2.949s] Invoked command in '/home/lifeofsankar/arm_ws/build/wall_painter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/wall_painter -- -j8 -l8
+[2.951s] Invoking command in '/home/lifeofsankar/arm_ws/build/wall_painter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/arm_ws/build/wall_painter
+[2.960s] -- Install configuration: ""
+[2.960s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/lib/wall_painter/wall_detection.py
+[2.960s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/lib/wall_painter/object_spawner.py
+[2.960s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/lib/wall_painter/full_wall_detection.py
+[2.961s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/ament_index/resource_index/package_run_dependencies/wall_painter
+[2.961s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/ament_index/resource_index/parent_prefix_path/wall_painter
+[2.961s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/environment/ament_prefix_path.sh
+[2.961s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/environment/ament_prefix_path.dsv
+[2.961s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/environment/path.sh
+[2.962s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/environment/path.dsv
+[2.962s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/local_setup.bash
+[2.962s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/local_setup.sh
+[2.962s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/local_setup.zsh
+[2.962s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/local_setup.dsv
+[2.962s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/package.dsv
+[2.963s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/ament_index/resource_index/packages/wall_painter
+[2.963s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/cmake/wall_painterConfig.cmake
+[2.963s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/cmake/wall_painterConfig-version.cmake
+[2.963s] -- Installing: /home/lifeofsankar/arm_ws/install/wall_painter/share/wall_painter/package.xml
+[2.965s] Invoked command in '/home/lifeofsankar/arm_ws/build/wall_painter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/arm_ws/build/wall_painter

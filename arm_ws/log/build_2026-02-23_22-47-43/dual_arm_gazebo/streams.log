@@ -1,0 +1,70 @@
+[0.055s] Invoking command in '/home/lifeofsankar/arm_ws/build/dual_arm_gazebo': CMAKE_PREFIX_PATH=/home/lifeofsankar/arm_ws/install/arm_description:/home/lifeofsankar/arm_ws/install/wall_painter:/home/lifeofsankar/arm_ws/install/my_mtc_task:/home/lifeofsankar/arm_ws/install/dual_arm_moveit_config:/home/lifeofsankar/arm_ws/install/dual_arm_gazebo:/home/lifeofsankar/arm_ws/install/dual_arm_description:/home/lifeofsankar/arm_ws/install/arm_moveit_config:/home/lifeofsankar/arm_ws/install/arm_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/dual_arm_gazebo -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/dual_arm_gazebo
+[0.133s] -- The C compiler identification is GNU 13.3.0
+[0.193s] -- The CXX compiler identification is GNU 13.3.0
+[0.212s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.453s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.652s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.805s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[0.809s] -- Found controller_manager: 4.42.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+[0.879s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.903s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.062s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.067s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.193s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.222s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.214s] -- Found ros2_control: 4.42.2 (/opt/ros/jazzy/share/ros2_control/cmake)
+[2.219s] -- Found ros2_controllers: 4.36.0 (/opt/ros/jazzy/share/ros2_controllers/cmake)
+[2.225s] -- Found gripper_controllers: 4.36.0 (/opt/ros/jazzy/share/gripper_controllers/cmake)
+[2.303s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.308s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.308s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.573s] -- Configuring done (2.5s)
+[2.578s] -- Generating done (0.0s)
+[2.584s] -- Build files have been written to: /home/lifeofsankar/arm_ws/build/dual_arm_gazebo
+[2.601s] Invoked command in '/home/lifeofsankar/arm_ws/build/dual_arm_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/lifeofsankar/arm_ws/install/arm_description:/home/lifeofsankar/arm_ws/install/wall_painter:/home/lifeofsankar/arm_ws/install/my_mtc_task:/home/lifeofsankar/arm_ws/install/dual_arm_moveit_config:/home/lifeofsankar/arm_ws/install/dual_arm_gazebo:/home/lifeofsankar/arm_ws/install/dual_arm_description:/home/lifeofsankar/arm_ws/install/arm_moveit_config:/home/lifeofsankar/arm_ws/install/arm_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/arm_ws/src/dual_arm_gazebo -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/arm_ws/install/dual_arm_gazebo
+[2.602s] Invoking command in '/home/lifeofsankar/arm_ws/build/dual_arm_gazebo': CMAKE_PREFIX_PATH=/home/lifeofsankar/arm_ws/install/arm_description:/home/lifeofsankar/arm_ws/install/wall_painter:/home/lifeofsankar/arm_ws/install/my_mtc_task:/home/lifeofsankar/arm_ws/install/dual_arm_moveit_config:/home/lifeofsankar/arm_ws/install/dual_arm_gazebo:/home/lifeofsankar/arm_ws/install/dual_arm_description:/home/lifeofsankar/arm_ws/install/arm_moveit_config:/home/lifeofsankar/arm_ws/install/arm_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/dual_arm_gazebo -- -j8 -l8
+[2.655s] Invoked command in '/home/lifeofsankar/arm_ws/build/dual_arm_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/lifeofsankar/arm_ws/install/arm_description:/home/lifeofsankar/arm_ws/install/wall_painter:/home/lifeofsankar/arm_ws/install/my_mtc_task:/home/lifeofsankar/arm_ws/install/dual_arm_moveit_config:/home/lifeofsankar/arm_ws/install/dual_arm_gazebo:/home/lifeofsankar/arm_ws/install/dual_arm_description:/home/lifeofsankar/arm_ws/install/arm_moveit_config:/home/lifeofsankar/arm_ws/install/arm_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/dual_arm_gazebo -- -j8 -l8
+[2.657s] Invoking command in '/home/lifeofsankar/arm_ws/build/dual_arm_gazebo': CMAKE_PREFIX_PATH=/home/lifeofsankar/arm_ws/install/arm_description:/home/lifeofsankar/arm_ws/install/wall_painter:/home/lifeofsankar/arm_ws/install/my_mtc_task:/home/lifeofsankar/arm_ws/install/dual_arm_moveit_config:/home/lifeofsankar/arm_ws/install/dual_arm_gazebo:/home/lifeofsankar/arm_ws/install/dual_arm_description:/home/lifeofsankar/arm_ws/install/arm_moveit_config:/home/lifeofsankar/arm_ws/install/arm_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/arm_ws/build/dual_arm_gazebo
+[2.666s] -- Install configuration: ""
+[2.666s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch
+[2.666s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/__pycache__
+[2.666s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/__pycache__/empty_world.launch.cpython-312.pyc
+[2.666s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/view_ur.launch.py
+[2.666s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/controller.launch.py
+[2.666s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/rsp.launch.py
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/empty_world.launch.py
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/launch/dual_arm_gz.launch.py
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config/controller.yaml
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config/gz_bridge.yaml
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/empty.sdf
+[2.667s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/empty_world.sdf
+[2.668s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/package_run_dependencies/dual_arm_gazebo
+[2.668s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/parent_prefix_path/dual_arm_gazebo
+[2.668s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/ament_prefix_path.sh
+[2.668s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/ament_prefix_path.dsv
+[2.669s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/path.sh
+[2.669s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/path.dsv
+[2.669s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.bash
+[2.669s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.sh
+[2.669s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.zsh
+[2.670s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.dsv
+[2.670s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/package.dsv
+[2.670s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/packages/dual_arm_gazebo
+[2.670s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/cmake/dual_arm_gazeboConfig.cmake
+[2.670s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/cmake/dual_arm_gazeboConfig-version.cmake
+[2.671s] -- Installing: /home/lifeofsankar/arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/package.xml
+[2.674s] Invoked command in '/home/lifeofsankar/arm_ws/build/dual_arm_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/lifeofsankar/arm_ws/install/arm_description:/home/lifeofsankar/arm_ws/install/wall_painter:/home/lifeofsankar/arm_ws/install/my_mtc_task:/home/lifeofsankar/arm_ws/install/dual_arm_moveit_config:/home/lifeofsankar/arm_ws/install/dual_arm_gazebo:/home/lifeofsankar/arm_ws/install/dual_arm_description:/home/lifeofsankar/arm_ws/install/arm_moveit_config:/home/lifeofsankar/arm_ws/install/arm_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/arm_ws/build/dual_arm_gazebo

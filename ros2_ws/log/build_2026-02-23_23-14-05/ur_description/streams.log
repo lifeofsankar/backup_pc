@@ -1,0 +1,313 @@
+[0.013s] Invoking command in '/home/lifeofsankar/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/ros2_ws/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/ros2_ws/install/ur_description
+[0.074s] -- The C compiler identification is GNU 13.3.0
+[0.130s] -- The CXX compiler identification is GNU 13.3.0
+[0.145s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.359s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.523s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.658s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.722s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.744s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.929s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.934s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.030s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.051s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.416s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[1.420s] -- Found ament_cmake_pytest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[1.501s] -- Configuring done (1.5s)
+[1.508s] -- Generating done (0.0s)
+[1.510s] -- Build files have been written to: /home/lifeofsankar/ros2_ws/build/ur_description
+[1.519s] Invoked command in '/home/lifeofsankar/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lifeofsankar/ros2_ws/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/lifeofsankar/ros2_ws/install/ur_description
+[1.520s] Invoking command in '/home/lifeofsankar/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/ros2_ws/build/ur_description -- -j8 -l8
+[1.571s] Invoked command in '/home/lifeofsankar/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/ros2_ws/build/ur_description -- -j8 -l8
+[1.572s] Invoking command in '/home/lifeofsankar/ros2_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/ros2_ws/build/ur_description
+[1.584s] -- Install configuration: ""
+[1.584s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config
+[1.584s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5
+[1.584s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.584s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.585s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.585s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.585s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur18
+[1.585s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur18/physical_parameters.yaml
+[1.585s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur18/visual_parameters.yaml
+[1.585s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur18/joint_limits.yaml
+[1.585s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur18/default_kinematics.yaml
+[1.586s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur12e
+[1.586s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[1.586s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[1.586s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[1.586s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[1.586s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur16e
+[1.586s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.587s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.587s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.587s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.587s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10e
+[1.587s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.587s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.587s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.588s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.588s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3e
+[1.588s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.588s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.588s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.588s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.589s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5e
+[1.589s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.589s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.589s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.589s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.589s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.590s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur8long
+[1.590s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur8long/physical_parameters.yaml
+[1.590s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur8long/visual_parameters.yaml
+[1.590s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur8long/joint_limits.yaml
+[1.590s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur8long/default_kinematics.yaml
+[1.590s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur20
+[1.590s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.591s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.591s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.591s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.591s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3
+[1.591s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.591s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.592s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.592s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.592s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10
+[1.593s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.593s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.593s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.593s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.593s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur7e
+[1.593s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[1.593s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[1.594s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[1.594s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[1.594s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur30
+[1.594s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.594s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.594s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur15
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/launch
+[1.595s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.596s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/launch/dual_arm_gz.launch.py
+[1.596s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/rviz
+[1.596s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[1.596s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf
+[1.596s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/inc
+[1.596s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro
+[1.596s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[1.597s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[1.597s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro
+[1.597s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro
+[1.597s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro
+[1.598s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[1.598s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[1.598s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes
+[1.598s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5
+[1.598s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision
+[1.598s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[1.599s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[1.599s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[1.600s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[1.600s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[1.600s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[1.601s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[1.601s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual
+[1.601s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[1.605s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[1.608s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[1.608s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[1.610s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[1.611s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[1.614s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[1.616s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18
+[1.616s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/collision
+[1.616s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/collision/forearm.stl
+[1.617s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/collision/upperarm.stl
+[1.617s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/visual
+[1.617s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/visual/upperarm.dae
+[1.619s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/visual/UR18_DIFF_8bit_2K.jpg
+[1.620s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/visual/forearm.dae
+[1.621s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur18/LICENSE.txt
+[1.621s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e
+[1.621s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision
+[1.621s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.622s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.623s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual
+[1.623s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[1.627s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.629s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e
+[1.629s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision
+[1.629s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.630s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.630s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.631s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.631s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.632s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.633s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.633s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual
+[1.633s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.637s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.641s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.641s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.644s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.645s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.647s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.649s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e
+[1.649s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision
+[1.650s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[1.650s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[1.650s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[1.651s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[1.651s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[1.652s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[1.653s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[1.654s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual
+[1.654s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[1.658s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[1.661s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[1.662s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[1.664s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[1.665s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[1.667s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[1.670s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e
+[1.670s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision
+[1.670s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[1.671s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[1.671s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[1.671s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[1.672s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[1.672s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[1.673s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[1.674s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual
+[1.674s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[1.678s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[1.681s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[1.681s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[1.684s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[1.685s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[1.687s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[1.690s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long
+[1.690s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/collision
+[1.690s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/collision/forearm.stl
+[1.690s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/collision/upperarm.stl
+[1.691s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/visual
+[1.691s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg
+[1.692s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/upperarm.dae
+[1.694s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/forearm.dae
+[1.695s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur8long/LICENSE.txt
+[1.695s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20
+[1.695s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision
+[1.695s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[1.696s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[1.697s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[1.697s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[1.697s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[1.698s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[1.699s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[1.699s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual
+[1.699s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[1.701s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[1.702s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[1.704s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[1.706s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[1.707s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[1.710s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[1.712s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[1.713s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[1.713s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3
+[1.713s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision
+[1.713s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[1.714s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[1.715s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[1.716s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[1.717s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[1.718s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[1.719s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[1.720s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual
+[1.721s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[1.724s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[1.727s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[1.727s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[1.729s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[1.730s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.732s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.734s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10
+[1.734s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision
+[1.734s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.734s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.735s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.736s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.736s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.736s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.737s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.737s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual
+[1.737s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.740s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.742s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.743s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.746s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.746s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.749s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.752s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30
+[1.752s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision
+[1.752s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[1.753s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[1.753s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual
+[1.753s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[1.756s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[1.757s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[1.759s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[1.759s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15
+[1.759s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision
+[1.759s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl
+[1.760s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl
+[1.760s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl
+[1.760s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl
+[1.760s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl
+[1.761s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl
+[1.761s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl
+[1.761s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual
+[1.761s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae
+[1.763s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae
+[1.764s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+[1.765s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae
+[1.766s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae
+[1.767s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae
+[1.768s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae
+[1.769s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae
+[1.770s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/environment/path.sh
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/environment/path.dsv
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/local_setup.bash
+[1.771s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/local_setup.sh
+[1.772s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/local_setup.zsh
+[1.772s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/local_setup.dsv
+[1.772s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/package.dsv
+[1.772s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[1.772s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[1.772s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[1.772s] -- Installing: /home/lifeofsankar/ros2_ws/install/ur_description/share/ur_description/package.xml
+[1.775s] Invoked command in '/home/lifeofsankar/ros2_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lifeofsankar/ros2_ws/build/ur_description

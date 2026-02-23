@@ -1,0 +1,11 @@
+Panels:
+  - Class: rviz_common/Displays
+  - Class: rviz_common/Views
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+    - Class: moveit_rviz_plugin/MotionPlanning
+      Name: MotionPlanning
+  Global Options:
+    Fixed Frame: world

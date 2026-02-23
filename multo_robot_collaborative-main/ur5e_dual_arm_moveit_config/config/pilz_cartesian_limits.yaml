@@ -1,0 +1,30 @@
+# ==========================================
+# PILZ CARTESIAN LIMITS
+#
+# For straight-line (cartesian) motions
+# Example: moving tool in straight line to pick object
+#
+# trans = translation (moving in X,Y,Z)
+# rot = rotation (roll, pitch, yaw)
+# ==========================================
+
+cartesian_limits:
+  max_trans_vel: 1.0      # 1 m/s max linear speed
+  max_trans_acc: 2.25     # smooth linear acceleration
+  max_trans_dec: -5.0     # can brake faster than accelerate
+  max_rot_vel: 1.57       # 90°/s max rotation speed
+```
+
+**Key concept:**
+```
+Joint space planning:
+- Moves joints directly
+- Path curves through space
+- Faster
+
+Cartesian planning:
+- Tool moves in straight line
+- More intuitive for pick/place
+- Slower but precise
+
+

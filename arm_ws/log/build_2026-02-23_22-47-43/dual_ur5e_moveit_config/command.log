@@ -1,0 +1,2 @@
+Invoking command in '/home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config -- -j8 -l8
+Invoked command in '/home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lifeofsankar/arm_ws/build/dual_ur5e_moveit_config -- -j8 -l8

@@ -1,0 +1,15 @@
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_gazebo
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_gazebo
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/environment/ament_prefix_path.sh
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/environment/ament_prefix_path.dsv
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/environment/path.sh
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/environment/path.dsv
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/local_setup.bash
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/local_setup.sh
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/local_setup.zsh
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/local_setup.dsv
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/package.dsv
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ament_index/resource_index/packages/ur_gazebo
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/cmake/ur_gazeboConfig.cmake
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/cmake/ur_gazeboConfig-version.cmake
+/home/lifeofsankar/ros2_ws/install/ur_gazebo/share/ur_gazebo/package.xml
